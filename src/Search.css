@@ -1,0 +1,26 @@
+input {
+    width: 275px;
+    border-radius: 3px;
+    padding-left: 7px;
+    border: none;
+    color: darkblue;
+  }
+  button {
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 2px 15px;
+    border: none;
+  }
+  .search {
+    background-color: rgb(250, 50, 50);
+    color: azure;
+    margin-left: 15px;
+  }
+  .search:hover {
+    color: rgb(250, 50, 50);
+    background-color: azure;
+    transition: all 200 ease-in-out;
+  }
+  
