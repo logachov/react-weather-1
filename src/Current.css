@@ -46,6 +46,13 @@ hr {
   .currentTemp {
     display: block;
   }
+  a.secondTemp {
+    text-decoration: none;
+    cursor: pointer;
+    color: darkblue;
+    font-size: 26px;
+    font-weight: 300;
+  }
   .secondTemp {
     cursor: pointer;
     color: darkblue;
@@ -55,6 +62,7 @@ hr {
   .secondTemp:hover {
     font-weight: 500;
   }
+  
   .hiddenTemp {
     display: none;
   }

@@ -1,14 +1,13 @@
 import React from "react";
 import "./Container.css";
-import Current from "./Current";
-import Forecast from "./Forecast";
 import Search from "./Search";
+import Forecast from "./Forecast";
+
 
 export default function Container() {
   return (
     <div className="container">
-      <Search />
-      <Current />
+      <Search  defaultCity="Amsterdam"/>
       <Forecast />
     </div>
   );
